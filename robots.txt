@@ -1,0 +1,4 @@
+# Training material for Peekaboo customers.
+# Reachable by anyone with the link, but deliberately kept out of search results.
+User-agent: *
+Disallow: /
