@@ -1,4 +1,13 @@
 # Training material for Peekaboo customers.
-# Reachable by anyone with the link, but deliberately kept out of search results.
+#
+# Crawling is ALLOWED so AI assistants can ingest this material as a knowledge
+# source. The markdown files listed in the sitemap are the content; the HTML
+# page is only a viewer shell and carries no text of its own.
+#
+# Search engines are still discouraged from listing this publicly via the
+# X-Robots-Tag: noindex header in vercel.json. That header permits crawling
+# while asking search engines not to publish the pages in results.
 User-agent: *
-Disallow: /
+Allow: /
+
+Sitemap: https://peekaboo-knowledge.vercel.app/sitemap.xml

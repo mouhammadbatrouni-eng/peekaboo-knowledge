@@ -80,7 +80,28 @@
   <div class="searchbox"><input id="q" type="search" placeholder="Search training…" autocomplete="off"></div>
   <div id="navlinks"></div>
 </nav>
-<main><article id="content"><p class="loading">Loading…</p></article></main>
+<main>
+  <!-- Real, crawlable links to the source documents. The viewer above loads these
+       with JavaScript, so without this block a crawler (or an AI ingesting this
+       site) would find only the empty shell. -->
+  <noscript>
+    <article>
+      <h1>Peekaboo Training</h1>
+      <p>This viewer needs JavaScript. The full training material is in these documents:</p>
+      <ul>
+        <li><a href="01-welcome.md">Welcome to Peekaboo</a></li>
+        <li><a href="02-role-tracks.md">Training by role</a></li>
+        <li><a href="03-how-to.md">How to — everyday tasks</a></li>
+        <li><a href="04-faq.md">Frequently asked questions</a></li>
+        <li><a href="05-getting-unstuck.md">Getting unstuck</a></li>
+        <li><a href="06-module-guides.md">Guide to each area</a></li>
+        <li><a href="07-glossary-and-statuses.md">Words and statuses</a></li>
+        <li><a href="08-all-links.md">Every page, one click away</a></li>
+      </ul>
+    </article>
+  </noscript>
+  <article id="content"><p class="loading">Loading…</p></article>
+</main>
 
 <script>
 const DOCS = [
