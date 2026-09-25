@@ -16,6 +16,10 @@ You cannot design your own form, publish it to parents or staff, or collect resp
 Staff cannot raise leave requests, holiday requests or any other kind of request for approval in the portal.
 *Nearest thing:* **Staff Attendance** records a day as **On Leave** once the absence is known, and a staff record carries an **Employee Note**.
 
+**There is no admission form link and no payment link.**
+The portal does not generate a link you can send to a parent, and there is no button that emails one. An enquiry cannot be turned into a link for a parent to fill in or pay through.
+*Nearest thing:* email the parent yourself, using the address recorded on their lead. Record what you sent, and when, as a **Note** on the lead so the team can see it.
+
 ---
 
 ## Pages that are not part of the portal
@@ -66,7 +70,7 @@ If somebody mentions one of these pages, they may have seen it in a demonstratio
 *Nearest thing:* the child is added on the **Children** page as a separate piece of work, with the lead's details to hand. A lead can be flagged as **MOVED TO STUDENT AFFAIRS** to show it has been handed on.
 
 **There is no online application form for parents.** Families cannot fill in their own details and have a lead appear.
-*Nearest thing:* leads are added on the **CRM Leads** page, and the lead's **Send Form URL to Parent** email carries a link to an application form for the family to complete.
+*Nearest thing:* take the family's details however you normally do, by phone, by email or in person, and add the lead yourself on the **CRM Leads** page.
 
 ---
 

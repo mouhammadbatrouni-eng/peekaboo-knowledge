@@ -416,8 +416,7 @@ Verified By**, **No Enroll Reason**, **Reason Explanation** and **Joining Notes*
 
 The middle panel is **Tasks** and the right panel is **Notes**. Both are covered below.
 
-The buttons across the top are **Send payment URL**, **Download**, **Approve**, and a red
-**Delete**.
+The buttons across the top are **Download**, **Approve**, and a red **Delete**.
 
 **Good to know:**
 A lead with no child name recorded appears as **Unnamed lead** throughout.
@@ -633,39 +632,15 @@ If no templates are set up, the page reads **No email templates found.**
 > **Not yet checked on a live system:** when these saved templates are actually used —
 > whether they are sent automatically on a stage change, or only ever sent manually.
 
-### Sending the admission form link to one parent
+### Sending an admission form link to a parent
 
-**Who can do this:** Principal, or any role granted the Leads module.
-**Where:** **CRM Leads**, then open the lead — /app/crm/leads
+There is no admission form link and no payment link in Peekaboo. The portal does not
+generate a link you can send to a parent, and there is no button to email one.
 
-**Steps:**
-
-1. Open the lead.
-2. Press **Send payment URL** at the top left of the detail page.
-3. A window headed **Send Form URL to Parent** opens.
-4. **Parent Email** is filled in from the lead and cannot be typed into. If the lead has no
-   email, it shows the placeholder **Parent email not available**.
-5. Check the **Subject**, which is pre-filled as **Admission Form**.
-6. Review the pre-written message in the editor. It is addressed to the parent by name,
-   mentions the child by name, includes a link to the admission form, and is signed off
-   with the nursery logo.
-7. Press **Send Email**.
-
-**After you press Send Email — read this before using it:**
-
-This button does not send anything. Whatever you type, pressing **Send Email** produces the
-message **Payment URL email API is not available yet.** and the window stays open.
-
-This is stated plainly in the portal itself, not inferred. Sending from this window is not
-available in the version you are running.
-
-To get the admission form to a parent today, copy the link out of the message body and send
-it from your own email. The rest of the window is still useful as a template: open it,
-copy the wording, paste it into your mail client.
-
-Two checks happen before that message appears. With no parent email you get **A valid
-parent email address is required.** With an empty subject or body you get **Subject and
-message are required.**
+**What to do instead:** contact the parent yourself, using the email address recorded on
+the lead. If your nursery uses an admission form of its own, send that from your normal
+email account. Record what you sent and when as a **Note** on the lead, so the rest of the
+team can see it.
 
 ---
 
@@ -1421,9 +1396,6 @@ Grouped by where they appear. All are the portal's exact English wording.
 
 | Message | What it means |
 |---|---|
-| **Payment URL email API is not available yet.** | **Send Email** does not send. Copy the link and send it yourself. |
-| **A valid parent email address is required.** | The lead has no email address. |
-| **Subject and message are required.** | Fill both before sending. |
 | **Email template updated successfully.** | The template was saved. |
 | **Template could not be updated.** | The template did not save. |
 | **No email templates found.** | No templates are set up. |
